@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotificationTest</string>
+    <!-- 单选框文字 -->
+    <string name="canCreateDuplicateNotification">是否可弹出多个通知</string>
+
+    <string name="sys_notification_text_color_is">通知栏系统文字颜色为：%1$d</string>
+    <string name="sys_notification_text_color_is_null">通知栏系统文字颜色为空</string>
+    <string name="notification_title">北林大9名女生哈尔滨遇车祸 4死5伤</string>
+    <string name="notification_text">北林大9名大四女生结伴乘坐面包车从哈尔滨前往雪乡途中，发生交通事故，造成4人死亡，5人受伤</string>
+</resources>

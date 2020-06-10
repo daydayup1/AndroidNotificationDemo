@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.goudan.notificationtest">
+
+    <!-- 测试"可悬浮于其他应用之上的通知"部分机型需要 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!-- 在测试"可悬浮于其他应用之上的通知"时需要震动，具体原因详见创建该通知时注释 -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- 在测试"含对方头像和图片的通知类型"的时候，需要读取本地图片作为通知栏中对方发来的图片，故需要读存储权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:name=".MyApplication">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".NotificationClickEvent"/>
+        <service android:name=".NotificationService"/>
+    </application>
+
+</manifest>

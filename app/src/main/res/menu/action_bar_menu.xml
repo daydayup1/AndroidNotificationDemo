@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.actionbartest.MainActivity">
+
+    <item
+        android:id="@+id/action_duplicate_notification"
+        app:showAsAction="never"
+        android:title="是否允许弹出多个通知"/>
+    <item
+        android:id="@+id/action_sys_notification_text_color"
+        app:showAsAction="always"
+        android:title="显示通知栏系统文字颜色"/>
+    <item
+        android:id="@+id/action_remote_view_height"
+        android:icon="@drawable/ic_launcher"
+        app:showAsAction="never"
+        android:title="RemoteView高度选择"/>
+
+</menu>

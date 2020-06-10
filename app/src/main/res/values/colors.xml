@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="item_press_bg">#F2F2F2</color>
+    <color name="item_normal_bg">#FFFFFF</color>
+    <color name="header_bg">#1bdbb8</color>
+    <color name="list_view_bg">#141414</color>
+    <color name="list_divider_color">#F1F1F1</color>
+
+</resources>
